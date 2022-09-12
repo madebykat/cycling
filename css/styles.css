@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 10% 15%;
+}
+
+.main-container {
+  padding: 3% 15%;
+}
+
+#title {
+  color: #fff;
+}
+
+/* Background colors */
+.background-colored {
+  background-color: #ff8412;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+/* Headings */
+.heading-main {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.heading-punchlines {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.heading-medium {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #ff8412;
+  margin-top: 8px;
+}
+
+.heading-pricing {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.h2black {
+  color: #4a4a4a;
+  text-align: center;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+
+}
+
+.underlined {
+text-decoration: underline;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-img {
+  width: 30px;
+}
+
+/* Hero Image */
+.hero-img {
+  transform: scale(0.95);
+  position: absolute;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.18));
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.features-img {
+  width: 80px;
+  display: block;
+  margin: 30px auto;
+  opacity: 0.3;
+}
+
+.features-img:hover {
+  opacity: 0.5;
+}
+
+.features-p {
+  text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 150px;
+  margin: 30px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+
+
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .hero-img {
+    transform: rotate(0) scale(0.8);
+    position: static;
+  }
+
+  #title {
+    background-color: #ff8412;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+/* CTA */
+#cta {
+  text-align: center;
+  padding: 5% 15% 3% 15%;
+}
+
+#footer {
+  text-align: center;
+}
+
+.social-img {
+  width: 40px;
+  opacity: 0.33;
+  margin: 0 15px;
+}

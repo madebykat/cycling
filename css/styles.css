@@ -152,8 +152,8 @@ text-decoration: underline;
 }
 
 @media (max-width: 990px) {
-  .hero-img {
-    transform: rotate(0) scale(0.8);
+   .hero-img {
+    transform: scale(0.7);
     position: static;
   }
 
@@ -161,6 +161,11 @@ text-decoration: underline;
     background-color: #ff8412;
     color: #fff;
     text-align: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
   }
 }
 

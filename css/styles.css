@@ -174,7 +174,7 @@ text-decoration: underline;
   margin: 0 15px;
 }
 
-@media all and (max-width: 990px) {
+@media screen and (max-width: 990px) {
   .hero-img {
     transform: scale(0.5);
     position: static;
@@ -189,5 +189,8 @@ text-decoration: underline;
   .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
+  }
+  .heading-punchlines {
+    font-size: 1.5rem;
   }
 }

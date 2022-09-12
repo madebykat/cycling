@@ -151,23 +151,7 @@ text-decoration: underline;
   text-align: center;
 }
 
-@media (max-width: 990px) {
-   .hero-img {
-    transform: scale(0.2);
-    position: static;
-  }
 
-  #title {
-    background-color: #ff8412;
-    color: #fff;
-    text-align: center;
-  }
-
-  .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-  }
-}
 
 /* CTA */
 #cta {
@@ -183,4 +167,22 @@ text-decoration: underline;
   width: 40px;
   opacity: 0.33;
   margin: 0 15px;
+}
+
+@media all and (max-width: 990px) {
+  .hero-img {
+    transform: scale(0.5);
+    position: static;
+  }
+
+  #title {
+    background-color: #ff8412;
+    color: #fff;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+  }
 }

@@ -75,7 +75,7 @@ p {
 .h2black {
   color: #4a4a4a;
   text-align: center;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* Navigation Bar */
@@ -94,11 +94,10 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-
 }
 
 .underlined {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Buttons */
@@ -152,15 +151,11 @@ text-decoration: underline;
   padding: 3% 15%;
 }
 
-
-
 /* Pricing */
 .pricing-column {
   padding: 3% 2%;
   text-align: center;
 }
-
-
 
 /* CTA */
 #cta {
@@ -194,7 +189,36 @@ text-decoration: underline;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
   }
+
+  .main-container {
+    padding: 10% 15%;
+  }
+
+  .heading-main {
+    font-size: 2.5rem;
+  }
+
+  .download-button {
+    margin: 10% 3% 5% 0;
+  }
+
+  .carousel-item {
+    padding: 10% 15% 5% 15%;
+  }
+
+  #cta {
+    padding: 10% 15% 10% 15%;
+  }
+
   .heading-punchlines {
     font-size: 1.5rem;
+  }
+
+  .social-img {
+    width: 25px;
+  }
+
+  .testimonial-img {
+    width: 100px;
   }
 }
